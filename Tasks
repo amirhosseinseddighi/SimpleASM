@@ -1,0 +1,12 @@
+1- Simple Login - DONE
+2- Add subdomain to program{
+    1. Select program
+    2. Auto detect root domain
+    3. Tags - (Could be auto detect - bulitwith, wappalizer)
+    4. Remove duplicates
+    5. WorkFlow {
+        a. HTTPX
+        b. nuclei
+        ...
+    }
+}

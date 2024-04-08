@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+
+#menu {
+    width: 15%;
+    height: 100%;
+    background-color: #264653;
+    float: right;
+    padding: 0;
+}
+
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    color: #FFF;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+    height: 40px;
+    padding-top: 15px;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
