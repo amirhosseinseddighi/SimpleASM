@@ -23,12 +23,29 @@ if(isset($_POST['username']) && isset($_POST['password'])) {
 <html>
 <head>
     <title>Login Page</title>
+    <link rel="stylesheet" href='src/styles/user.css'>
 </head>
 <body>
-    <form action="" method="post">
-        <input type="text" name="username" placeholder = "Username"/>
-        <input type="password" name="password" placeholder="Password"/>
-        <input type="submit" name="login_action" value="Login"/>
-    </form>
+
+    <div class="wrapper">
+      <div class="title">Login Form</div>
+      <form action="" method="post">
+        <div class="field">
+          <input type="text" required name="username" id="username">
+          <label>Username</label>
+        </div>
+        <div class="field">
+          <input type="password" required name="password" id="pass1">
+          <label>Password</label>
+        </div>
+        <div class="content">
+         </div>
+        <div class="field">
+          <input class="submit" name="login_action" type="submit" value="Login">
+        </div>
+</div>
+      </form>
+    </div>
+
 </body>
 </html>

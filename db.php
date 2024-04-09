@@ -1,8 +1,8 @@
 <?php
 
 $server = "localhost";
-$username = "phpmyadmin";
-$password = "root";
+$username = "anti";
+$password = "anti798511";
 $db_name = "hunt";
 
 
