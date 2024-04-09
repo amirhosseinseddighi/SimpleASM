@@ -16,6 +16,9 @@ Simple Attack Surface Management
     * Grab Parameters
     * Grab key/value pairs
     * Grad endpoints
+    * Check Reflections
+    * Grab all JS Files -> Extract Params/Endpoints
+    * Extract HTML inputs/ids
     ...
 
     
