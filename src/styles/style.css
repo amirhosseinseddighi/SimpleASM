@@ -17,13 +17,18 @@ body {
     margin: 0;
 }
 
+#content {
+    width: 85%;
+    float: left;
+}
+
 #menu ul li {
     color: #FFF;
     text-align: center;
     list-style-type: none;
     width: 100%;
     border-bottom: 1px solid #FFF;
-    height: 40px;
+    height: 60px;
     padding-top: 15px;
 
 
@@ -33,4 +38,23 @@ body {
 a {
     text-decoration: none;
     color: #FFF;
+}
+
+.container-fluid {
+  padding:0;  
+}
+
+#programs_view {
+    width: 80%;
+    margin: auto;
+    margin-top:20px;
+    box-shadow: 0 0 3px;
+    border-radius: 5px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#programs_view table td {
+    max-width: 100px;
+    word-wrap: break-word;
 }
